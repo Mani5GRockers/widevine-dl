@@ -9,7 +9,7 @@ import platform
 import time
 
 FILE_DIRECTORY=str(pathlib.Path(__file__).parent.absolute())
-TEMPORARY_PATH = FILE_DIRECTORY+"/cache"
+TEMPORARY_PATH = FILE_DIRECTORY+"/download"
 OUTPUT_PATH = FILE_DIRECTORY+"/output"
 
 def osinfo():
